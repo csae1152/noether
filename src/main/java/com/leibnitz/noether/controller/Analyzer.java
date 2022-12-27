@@ -1,5 +1,7 @@
 package com.leibnitz.noether.controller;
 
+import java.util.StringTokenizer;
+import java.util.concurrent.ConcurrentSkipListMap;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -18,6 +20,9 @@ public class Analyzer implements Analyze{
 
     @Override
     public void readData() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+      StringTokenizer st = new StringTokenizer("this is a test");
+        ConcurrentSkipListMap<String, String> input = new ConcurrentSkipListMap<>(); 
+                
+      
     }
 }
